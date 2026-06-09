@@ -97,7 +97,7 @@ Bot and API run in a **single process**. Frontend is a single compiled `index.ht
 
 ## Infrastructure
 
-- **VPS:** Hetzner (Ubuntu 24.04), user `artur`
+- **VPS:** Hetzner (Ubuntu 24.04)
 - **Domain:** `https://mybot-foodlog.cc`, Mini App at `/app`
 - **Reverse proxy:** Caddy with auto-HTTPS → `localhost:8000`
 - **Process manager:** systemd service `calorie-bot`
